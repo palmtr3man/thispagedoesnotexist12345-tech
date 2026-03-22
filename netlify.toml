@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# www → apex 301 redirect (path-preserving) for .tech domain
+[[redirects]]
+  from = "https://www.thispagedoesnotexist12345.tech/*"
+  to = "https://thispagedoesnotexist12345.tech/:splat"
+  status = 301
+  force = true
