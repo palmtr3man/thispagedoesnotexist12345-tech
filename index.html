@@ -1,143 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Developer Tools Portal | thispagedoesnotexist12345.tech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Tools Portal | The Ultimate Journey</title>
 
-  <!-- Umami Analytics — .tech domain -->
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="62095f94-96c2-491c-99d7-849319080b06"></script>
+    <!-- SEO Meta -->
+    <meta name="description" content="Developer tools portal for The Ultimate Journey — link recovery, API playground, and curated tech resources for modern web development.">
+    <meta name="robots" content="index,follow">
 
-      <style>
-                * {
-                              margin: 0;
-                              padding: 0;
-                              box-sizing: border-box;
-                }
-                body {
-                              font-family: 'Courier New', monospace;
-                              background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-                              color: #00ff41;
-                              min-height: 100vh;
-                              display: flex;
-                              align-items: center;
-                              justify-content: center;
-                              padding: 20px;
-                }
-                .container {
-                              max-width: 800px;
-                              background: rgba(0, 0, 0, 0.8);
-                              border: 2px solid #00ff41;
-                              border-radius: 10px;
-                              padding: 40px;
-                              box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);
-                }
-                .terminal-header {
-                              display: flex;
-                              gap: 8px;
-                              margin-bottom: 20px;
-                }
-                .terminal-dot {
-                              width: 12px;
-                              height: 12px;
-                              border-radius: 50%;
-                }
-                .dot-red { background: #ff5f56; }
-                .dot-yellow { background: #ffbd2e; }
-                .dot-green { background: #27c93f; }
-                h1 {
-                              font-size: 2.5em;
-                              margin-bottom: 10px;
-                              text-shadow: 0 0 10px #00ff41;
-                }
-                .subtitle {
-                              color: #00d4ff;
-                              font-size: 1.2em;
-                              margin-bottom: 30px;
-                }
-                .features {
-                              margin: 30px 0;
-                }
-                .feature {
-                              margin: 15px 0;
-                              padding: 15px;
-                              background: rgba(0, 255, 65, 0.1);
-                              border-left: 3px solid #00ff41;
-                }
-                .feature h3 {
-                              color: #00d4ff;
-                              margin-bottom: 5px;
-                }
-                .cta-button {
-                              display: inline-block;
-                              margin-top: 30px;
-                              padding: 15px 40px;
-                              background: #00ff41;
-                              color: #0f0c29;
-                              text-decoration: none;
-                              font-weight: bold;
-                              border-radius: 5px;
-                              transition: all 0.3s;
-                }
-                .cta-button:hover {
-                              background: #00d4ff;
-                              box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
-                              transform: translateY(-2px);
-                }
-                .coming-soon {
-                              color: #ff6b6b;
-                              font-size: 0.9em;
-                              margin-top: 20px;
-                }
-                .footer {
-                              margin-top: 40px;
-                              padding-top: 20px;
-                              border-top: 1px solid #00ff41;
-                              text-align: center;
-                              color: #888;
-                              font-size: 0.9em;
-                }
-            </style>
+    <!-- Favicon & PWA -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thispagedoesnotexist12345.tech/">
+    <meta property="og:title" content="Developer Tools Portal | The Ultimate Journey">
+    <meta property="og:description" content="Link recovery, API playground, and curated tech resources for modern web development — part of The Ultimate Journey ecosystem.">
+    <meta property="og:image" content="https://thispagedoesnotexist12345.tech/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Developer Tools Portal | The Ultimate Journey">
+    <meta name="twitter:description" content="Link recovery, API playground, and curated tech resources for modern web development.">
+    <meta name="twitter:image" content="https://thispagedoesnotexist12345.tech/og-image.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Developer Tools Portal — The Ultimate Journey",
+      "url": "https://thispagedoesnotexist12345.tech/",
+      "description": "Developer tools portal for The Ultimate Journey — link recovery, API playground, and curated tech resources."
+    }
+    </script>
+
+    <!-- Umami Analytics — .tech domain -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="62095f94-96c2-491c-99d7-849319080b06"></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Courier New', monospace;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        color: #00ff41;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        border: 2px solid #00ff41;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);
+      }
+      .terminal-header {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+      .terminal-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+      .dot-red { background: #ff5f56; }
+      .dot-yellow { background: #ffbd2e; }
+      .dot-green { background: #27c93f; }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-shadow: 0 0 10px #00ff41;
+      }
+      .subtitle {
+        color: #00d4ff;
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+      .features {
+        margin: 30px 0;
+      }
+      .feature {
+        margin: 15px 0;
+        padding: 15px;
+        background: rgba(0, 255, 65, 0.1);
+        border-left: 3px solid #00ff41;
+      }
+      .feature h2 {
+        color: #00d4ff;
+        margin-bottom: 5px;
+        font-size: 1em;
+      }
+      .cta-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 15px 40px;
+        min-height: 48px;
+        background: #00ff41;
+        color: #0f0c29;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: all 0.3s;
+      }
+      .cta-button:hover {
+        background: #00d4ff;
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+        transform: translateY(-2px);
+      }
+      .coming-soon {
+        color: #ff6b6b;
+        font-size: 0.9em;
+        margin-top: 20px;
+      }
+      .site-footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #00ff41;
+        text-align: center;
+        color: #888;
+        font-size: 0.9em;
+      }
+    </style>
   </head>
   <body>
-        <div class="container">
-                  <div class="terminal-header">
-                                <div class="terminal-dot dot-red"></div>div>
-                                <div class="terminal-dot dot-yellow"></div>div>
-                                <div class="terminal-dot dot-green"></div>div>
-                  </div>div>
+    <header>
+      <div class="container" style="border:none;box-shadow:none;padding-bottom:0;">
+        <div class="terminal-header">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+        </div>
+        <h1>&gt; Developer Tools Portal</h1>
+        <p class="subtitle">// Building the next generation of developer utilities</p>
+      </div>
+    </header>
 
-                  <h1>&gt; Developer Tools Portal</h1>
-                <p class="subtitle">// Building the next generation of developer utilities</p>p>
-                
-                <div class="features">
-                            <div class="feature">
-                                            <h3>&gt; Link Recovery Tool</h3>
-                                            <p>Advanced broken link detection and recovery system. Scan, analyze, and fix dead links across your entire web infrastructure.</p>
-                            </div>div>
-                            
-                            <div class="feature">
-                                            <h3>&gt; API Playground</h3>
-                                            <p>Interactive testing environment for REST APIs, GraphQL, and WebSocket connections. Real-time debugging and documentation.</p>
-                            </div>div>
-                            
-                            <div class="feature">
-                                            <h3>&gt; Tech Resources</h3>
-                                            <p>Curated collection of developer tools, libraries, frameworks, and educational content for modern web development.</p>
-                            </div>div>
-                </div>div>
-                
-                <a href="#waitlist" class="cta-button">&gt; Join the Waitlist</a>a>
-                
-                <p class="coming-soon">🚀 Launching Q2 2026 | Early access available for beta testers</p>
-                
-                <div class="footer">
-                            thispagedoesnotexist12345.tech | Developer Tools Portal<br>
-                            Repository: <a href="https://github.com/palmtr3man/thispagedoesnotexist12345-tech" style="color: #00d4ff;">GitHub</a>a>
-                </div>div>
-        </div>div>
+    <main>
+      <div class="container" style="border-top:none;border-radius:0 0 10px 10px;">
+        <nav aria-label="Site navigation" style="margin-bottom:20px;font-size:0.85em;">
+          <a href="https://www.thispagedoesnotexist12345.com/" style="color:#00d4ff;text-decoration:none;margin-right:16px;">Main Platform</a>
+          <a href="https://thispagedoesnotexist12345.me/" style="color:#00d4ff;text-decoration:none;margin-right:16px;">Consulting (.me)</a>
+          <a href="https://thispagedoesnotexist12345.info/" style="color:#00d4ff;text-decoration:none;">Resources (.info)</a>
+        </nav>
+
+        <div class="features">
+          <div class="feature">
+            <h2>&gt; Link Recovery Tool</h2>
+            <p>Advanced broken link detection and recovery system. Scan, analyze, and fix dead links across your entire web infrastructure.</p>
+          </div>
+
+          <div class="feature">
+            <h2>&gt; API Playground</h2>
+            <p>Interactive testing environment for REST APIs, GraphQL, and WebSocket connections. Real-time debugging and documentation.</p>
+          </div>
+
+          <div class="feature">
+            <h2>&gt; Tech Resources</h2>
+            <p>Curated collection of developer tools, libraries, frameworks, and educational content for modern web development.</p>
+          </div>
+        </div>
+
+        <a href="https://newsletter.thispagedoesnotexist12345.us/" class="cta-button">&gt; Join the Waitlist</a>
+
+        <p class="coming-soon">🚀 Launching Q2 2026 | Early access available for beta testers</p>
+
+        <footer class="site-footer">
+          thispagedoesnotexist12345.tech | Developer Tools Portal<br>
+          Repository: <a href="https://github.com/palmtr3man/thispagedoesnotexist12345-tech" style="color: #00d4ff;">GitHub</a>
+        </footer>
+      </div>
+    </main>
   </body>
-</html>html></p></p></h3></h1>
-  </body>
-      </style></title>
-  </head>
+</html>
